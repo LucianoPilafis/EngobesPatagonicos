@@ -114,6 +114,7 @@ header{
     display: grid;
     width: 100%;
     justify-content: center;
+    grid-template-columns: 100%;
 
 }
 .img-nosotros{
@@ -208,6 +209,10 @@ header{
     }
     .muestra{
         max-width: 240px;
+        transition: all 2s;
+    }
+    .muestra:hover{
+        transform: scale(1.2);
     }
     .muestra img{
         height: 280px;
