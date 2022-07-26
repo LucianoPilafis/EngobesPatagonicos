@@ -1,0 +1,33 @@
+.header{
+    background-color: #594a4e;
+}
+body{
+    background-color: #faeee7;
+}
+h2{
+    color: #a38a7b;
+}
+.parrafo{
+    background-color: #594a4e;
+    color: #a38a7b;
+}
+.nav-link, .navbar-brand{
+    color: #a38a7b;
+    transition: all 1s;
+}
+.nav-link:hover{
+    transform: scale(.99);
+    color: #faeee7;
+}
+.navbar-brand:hover{
+    transform: scale(1.1);
+    color: #faeee7;
+}
+.navbar-toggler{
+    background-color: #a38a7b;
+    transition: all 1s;
+}
+.navbar-toggler:hover{
+    background-color: #faeee7;
+    transform: scale(1.1);
+}

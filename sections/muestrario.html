@@ -5,168 +5,176 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../imagenes/logo2.png">
-    <link rel="stylesheet" type="text/css" href="../style/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../style/estilos.css">
     <title>Muestrario</title>
 </head>
 <body>
     <header class="header">
-        <nav class="nav-bar">
-            <h1>Engobes Patagónicos</h1>
-            <ul>
-                
-                <li>
-                    <a href="../index.html" class="nav-link">Inicio</a>
-                </li>
-                <li>
-                    <a href="muestrario.html" class="nav-link">Muestrario</a>
-                </li>
-                <li>
-                    <a href="tecnicas.html" class="nav-link">Técnicas</a>
-                </li>
-                <li><a href="nosotros.html" class="nav-link">Nosotros</a>
-                    
-                </li>
-                <li><a href="contacto.html" class="nav-link">Contacto</a></li>
-            </ul>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html" >Engobes Patagónicos</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="./muestrario.html" class="nav-link">Muestrario</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./tecnicas.html" class="nav-link">Técnicas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./nosotros.html" class="nav-link">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./contacto.html" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
+                </div>    
+            </div>
         </nav>
     </header>
-    <main class="main-index">
-        <section class="muestrario"> 
-            <div class="parrafo">
+    <main>
+        <section class="container pt-5"> 
+            <div class="parrafo p-3 my-5 offset-xl-3 col-xl-6 offset-xl-3">
                 <h2>¿Qué son los engobes?</h2>
                 <p>El engobe cerámico es un recubrimiento decorativo a base de arcilla, óxidos y pigmentos los cuales le dan color. La particularidad de los engobes Patagónicos es que se pueden aplicar en cualquier estado de la pieza, es decir, se aplican tanto en estado de cuero o cruda, seca o bizcochada.<br> Contamos con una amplia gama de colores, los cuales pueden ver a continuación.    
                 </p>
             </div>
-            <div class="div-muestra">
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/amarillo.jpeg" class="img-muestrario" alt="portasahumerio de color amarillo">
-                    <p>Amarillo</p>
+            <div class="row">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/amarillo.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color amarillo">
+                    <p class="lead">Amarillo</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/amarillolimon.jpeg" class="img-muestrario" alt="portasahumerio de color amarillo limon">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/amarillolimon.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color amarillo limon">
                     <p>Amarillo Limón</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/azul.jpeg" class="img-muestrario" alt="portasahumerio de color azul">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/azul.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color azul">
                     <p>Azul</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/azulCobalto.jpeg" class="img-muestrario" alt="portasahumerio de color azul cobalto">
+                
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/azulCobalto.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color azul cobalto">
                     <p>Azul cobalto</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/azulIntenso.jpeg" class="img-muestrario" alt="portasahumerio de color azul intenso">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/azulIntenso.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color azul intenso">
                     <p>Azul intenso</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/berenjena.jpeg" class="img-muestrario" alt="portasahumerio de color berenjena">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/berenjena.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color berenjena">
                     <p>Berenjena</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/blanco.jpeg" class="img-muestrario" alt="portasahumerio de color blanco">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/blanco.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color blanco">
                     <p>Blanco</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/celeste.jpeg" class="img-muestrario" alt="portasahumerio de color celeste">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/celeste.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color celeste">
                     <p>Celeste</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/cielo.jpeg" class="img-muestrario" alt="portasahumerio de color cielo">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/cielo.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color cielo">
                     <p>Cielo</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/coral.jpeg" class="img-muestrario" alt="portasahumerio de corlor coral">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/coral.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de corlor coral">
                     <p>Coral</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/crema.jpeg" class="img-muestrario" alt="portasahumerio de corlor crema">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/crema.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de corlor crema">
                     <p>Crema</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/gris.jpeg" class="img-muestrario" alt="portasahumerio de color gris">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/gris.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color gris">
                     <p>Gris</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/grisSuave.jpeg" class="img-muestrario" alt="portasahumerio de color gris Suave">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/grisSuave.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color gris Suave">
                     <p>Gris suave</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/lila.jpeg" class="img-muestrario" alt="portasahumerio de color lila">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/lila.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color lila">
                     <p>Lila</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/marron.jpeg" class="img-muestrario" alt="portasahumerio de color marron">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/marron.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color marron">
                     <p>Marron</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/naranja.jpeg" class="img-muestrario" alt="portasahumerio de color naranja">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/naranja.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color naranja">
                     <p>Naranja</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/negro.jpeg" class="img-muestrario" alt="portasahumerio de color negro">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/negro.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color negro">
                     <p>Negro</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/ocre.jpeg" class="img-muestrario" alt="portasahumerio de color ocre">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/ocre.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color ocre">
                     <p>Ocre</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/rojo.jpeg" class="img-muestrario" alt="portasahumerio de color rojo">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/rojo.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color rojo">
                     <p>Rojo</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/rosado.jpeg" class="img-muestrario" alt="portasahumerio de color rosado">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/rosado.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color rosado">
                     <p>Rosado</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/rosaPastel.jpeg" class="img-muestrario" alt="portasahumerio de color rosa pastel">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/rosaPastel.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color rosa pastel">
                     <p>Rosa pastel</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/salmon.jpeg" class="img-muestrario" alt="portasahumerio de color salmon">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/salmon.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color salmon">
                     <p>Salmon</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/terracota.jpeg" class="img-muestrario" alt="portasahumerio de color terracota">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/terracota.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color terracota">
                     <p>Terracota</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/turquesa.jpeg" class="img-muestrario" alt="portasahumerio de color turquesa">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/turquesa.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color turquesa">
                     <p>Turquesa</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/verdeAgua.jpeg" class="img-muestrario" alt="portasahumerio de color verde agua">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/verdeAgua.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color verde agua">
                     <p>Verde agua</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/verdeCromo.jpeg" class="img-muestrario" alt="portasahumerio de color verde cromo">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/verdeCromo.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color verde cromo">
                     <p>Verde cromo</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/verdeFresco.jpeg" class="img-muestrario" alt="portasahumerio de color verde">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/verdeFresco.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color verde">
                     <p>Verde fresco</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/verdeIntenso.jpeg" class="img-muestrario" alt="portasahumerio de color">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/verdeIntenso.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color">
                     <p>Verde intenso</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/verdeManzana.jpeg" class="img-muestrario" alt="portasahumerio de color">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/verdeManzana.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color">
                     <p>Verde manzana</p>
                 </article>
-                <article class="muestra">
-                    <img src="../imagenes/muestrario/violeta.jpeg" class="img-muestrario" alt="portasahumerio de color violeta">
+                <article class="col-sm-6 col-md-4 col-lg-3">
+                    <img src="../imagenes/muestrario/violeta.jpeg" class="img-fluid img-thumbnail" alt="portasahumerio de color violeta">
                     <p>Violeta</p>
                 </article>
             </div>
         </section>
     </main>
-    <footer class="pie">   
+    <footer class="container-fluid">   
         <a href="https://www.instagram.com/engobes.patagonicos/" target="_blank">
             <img class="icono" src="https://img.icons8.com/material-outlined/24/000000/instagram-new--v1.png">
             Engobes.patagonicos
         </a>
         <p>Todos los derechos reservados a Engobes Patagónicos.</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>

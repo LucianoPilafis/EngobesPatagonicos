@@ -5,51 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../imagenes/logo2.png">
-    <link rel="stylesheet" type="text/css" href="../style/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../style/estilos.css">
     <title>Nosotros</title>
 </head>
 <body>
     <header class="header">
-        <nav class="nav-bar">
-            <h1>Engobes Patagónicos</h1>
-            <ul>
-                <li>
-                    <a href="../index.html" class="nav-link">Inicio</a>
-                </li>
-                <li>
-                    <a href="muestrario.html" class="nav-link">Muestrario</a>
-                </li>
-                <li>
-                    <a href="tecnicas.html" class="nav-link">Técnicas</a>
-                </li>
-                <li><a href="nosotros.html" class="nav-link">Nosotros</a>
-                    
-                </li>
-                <li><a href="contacto.html" class="nav-link">Contacto</a></li>
-            </ul>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html" >Engobes Patagónicos</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="./muestrario.html" class="nav-link">Muestrario</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./tecnicas.html" class="nav-link">Técnicas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./nosotros.html" class="nav-link">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./contacto.html" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
+                </div>    
+            </div>
         </nav>
     </header>
-    <main class="main-index">
-        <section class="parrafo">
-            
-            <h2>Nuestras piezas</h2>
-            <p>En esta colección de imágenes podemos ver una pequeña muestra de nuestras piezas, en las cuales podrán apreciar el uso de los engobes y las diferentes técnicas utilizadas. </p>
-            
-            <div class="div-nosotros">
-                <img src="../imagenes/piezas/presentacion3.jpeg" class="img-nosotros nos1" alt="Frascos con engobes de diferentes colores">
-                <img src="../imagenes/piezas/macetas1.jpeg" class="img-nosotros nos2" alt="Tres macetas con una planta dentro">
-                <img src="../imagenes/piezas/jarraAzul3.jpeg" class="img-nosotros nos3" alt="Jarra pequeña de color azul">
-                <img src="../imagenes/piezas/macetas3.jpeg" class="img-nosotros nos4" alt="Macetas pintadas con rayas">
-                <img src="../imagenes/piezas/morteroVerde.jpeg" class="img-nosotros nos5" alt="Mortero con la preparacion del engobe color verde">
+    <main>
+        <section class="container-fluid pt-5 offset-xl-3 col-xl-6 offset-xl-3">
+            <div class="row pt-3 my-4">
+                <h2>Nuestras piezas</h2>
+                <p class="parrafo">En esta colección de imágenes podemos ver una pequeña muestra de nuestras piezas, en las cuales podrán apreciar el uso de los engobes y las diferentes técnicas utilizadas. </p>
             </div>
+            <div class="container-fluid">
+                <div id="carrusel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carrusel" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carrusel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carrusel" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carrusel" data-bs-slide-to="3"></button>
+                        <button type="button" data-bs-target="#carrusel" data-bs-slide-to="4"></button>
+                    </div>   
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../imagenes/piezas/presentacion3.jpeg" class="d-block w-100" alt="Frascos con engobes de diferentes colores">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../imagenes/piezas/macetas1.jpeg" class="d-block w-100" alt="Tres macetas con una planta dentro">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../imagenes/piezas/jarraAzul3.jpeg" class="d-block w-100" alt="Jarra pequeña de color azul">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../imagenes/piezas/macetas3.jpeg" class="d-block w-100" alt="Macetas pintadas con rayas">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../imagenes/piezas/morteroVerde.jpeg" class="d-block w-100" alt="Mortero con la preparacion del engobe color verde">
+                        </div>
+                    </div>
+                </div>
+            </div>    
         </section>
     </main>
-    <footer class="pie">   
+    <footer class="container-fluid">   
         <a href="https://www.instagram.com/engobes.patagonicos/" target="_blank">
             <img class="icono" src="https://img.icons8.com/material-outlined/24/000000/instagram-new--v1.png">
             Engobes.patagonicos
         </a>
         <p>Todos los derechos reservados a Engobes Patagónicos.</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
