@@ -31,3 +31,11 @@ h2{
     background-color: #faeee7;
     transform: scale(1.1);
 }
+.muestra{
+    transition: all 1s;
+}
+.muestra:hover{
+    transform: scale(1.15);
+    background-color: #594a4e;
+    color: #faeee7;
+}
