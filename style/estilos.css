@@ -1,4 +1,4 @@
-.header{
+header{
     background-color: #594a4e;
 }
 body{
@@ -11,12 +11,16 @@ h2{
     background-color: #594a4e;
     color: #faeee7;
 }
+.coloreo{
+    color: #faeee7;
+    text-decoration: none;
+}
 .nav-link, .navbar-brand{
     color: #a38a7b;
     transition: all 1s;
 }
 .nav-link:hover{
-    transform: scale(.99);
+    transform: scale(1.1);
     color: #faeee7;
 }
 .navbar-brand:hover{
