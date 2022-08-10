@@ -5,15 +5,15 @@
 }
 p{
     font-family: 'Lato', sans-serif;
-    font-style: italic;
-    font-weight: 300;
+    font-weight: 400;
 }
 header{
-    background-color: #594a4e;
+    background-color: #a38a7b;
+    /*background-color: #594a4e;*/
 }
 .navbar-brand{
     font-family: 'Mouse Memoirs', sans-serif;
-    font-size: 1.8rem;
+    font-size: 2.1rem;
     
 }
 body{
@@ -23,14 +23,16 @@ body{
     background-repeat: no-repeat;
 }
 h2{
-    color: #a38a7b;
+    /*color: #a38a7b;*/
     font-family: 'Lato', sans-serif;
     font-style: bold;
     font-weight: 700;
 }
 .parrafo{
-    background-color: #594a4e;
-    color: #faeee7;
+    background-color: #a38a7b;;
+    color: #594a4e;
+    /*background-color: #594a4e;
+    color: #faeee7;*/
     font-size: 1.5rem;
 }
 .coloreo{
@@ -44,7 +46,8 @@ h2{
     font-weight: 700;
 }
 .nav-link, .navbar-brand{
-    color: #a38a7b;
+    color: #594a4e;
+    /*color: #a38a7b;*/
     transition: all 1s;
 }
 .nav-link:hover{
@@ -56,7 +59,8 @@ h2{
     color: #faeee7;
 }
 .navbar-toggler{
-    background-color: #a38a7b;
+    background-color: #594a4e;
+    /*background-color: #a38a7b;*/
     transition: all 1s;
 }
 .navbar-toggler:hover{
