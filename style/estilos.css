@@ -1,19 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,400;1,700&family=Mouse+Memoirs&display=swap');
+*{
+    
+
+}
+p{
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+}
 header{
     background-color: #594a4e;
+}
+.navbar-brand{
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 1.8rem;
+    
 }
 body{
     background-color: #faeee7;
 }
 h2{
     color: #a38a7b;
+    font-family: 'Lato', sans-serif;
+    font-style: bold;
+    font-weight: 700;
 }
 .parrafo{
     background-color: #594a4e;
     color: #faeee7;
+    font-size: 1.5rem;
 }
 .coloreo{
     color: #faeee7;
     text-decoration: none;
+}
+.nav-link{
+    font-size: 1.3rem;
+    font-family: 'Lato', sans-serif;
+    font-style: bold;
+    font-weight: 700;
 }
 .nav-link, .navbar-brand{
     color: #a38a7b;
@@ -40,6 +65,7 @@ h2{
 }
 .muestra:hover{
     transform: scale(1.15);
+    border: 2px solid #a38a7b;
     background-color: #594a4e;
     color: #faeee7;
 }
