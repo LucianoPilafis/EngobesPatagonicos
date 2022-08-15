@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,400;1,700&family=Mouse+Memoirs&display=swap");
+header {
+  background-color: rgb(223, 189, 108);
+}
+header .navbar-brand {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 2.1rem;
+}
+header .nav-link {
+  font-size: 1.3rem;
+  font-family: "Lato", sans-serif;
+  font-style: bold;
+  font-weight: 700;
+}
+header .nav-link, header .navbar-brand {
+  color: #594a4e;
+  transition: all 1s;
+}
+header .nav-link:hover {
+  transform: scale(1.1);
+  color: #faeee7;
+}
+header .navbar-brand:hover {
+  transform: scale(1.1);
+  color: #faeee7;
+}
+header .navbar-toggler {
+  background-color: #faeee7;
+  transition: all 1s;
+}
+header .navbar-toggler:hover {
+  background-color: #594a4e;
+  transform: scale(1.1);
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.parrafo {
+  background-color: rgba(223, 189, 108, 0.67);
+  color: #594a4e;
+  font-size: 1.5rem;
+}
+.parrafo a {
+  text-decoration: none;
+  color: #faeee7;
+}
+
+body {
+  background-color: #faeee7;
+  background-image: url(../imagenes/fondo2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.altura {
+  height: 100vh;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-style: bold;
+  font-weight: 700;
+}
+
+.coloreo {
+  background-color: rgb(223, 189, 108);
+  color: #faeee7;
+}
+.coloreo a {
+  color: #faeee7;
+  text-decoration: none;
+}
+
+.muestra {
+  transition: all 1s;
+}
+
+.muestra:hover {
+  transform: scale(1.15);
+  border: 2px solid #a38a7b;
+  background-color: #594a4e;
+  color: #faeee7;
+}/*# sourceMappingURL=style.css.map */
