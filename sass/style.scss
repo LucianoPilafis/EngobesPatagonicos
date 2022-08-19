@@ -5,3 +5,39 @@
 @import "body";
 @import "pie";
 @import "muestrario";
+a{
+    text-decoration: none;
+    color: $coloreo;
+}
+
+@mixin sizes($width, $height){
+    height: $height;
+    width: $width;
+}
+
+.boton--{
+    @include sizes(24vw, 15vh);
+    padding-top: 2.1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    border: 2px solid $letra;
+    background-image: url(../imagenes/muestra.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.boton--muestrario{
+    @extend .boton--;
+}
+.boton--tecnicas{
+    @extend .boton--;
+   
+}
+.boton--nosotros{
+    @extend .boton--;
+    
+}
+.boton--contacto{
+    @extend .boton--;
+    
+}
