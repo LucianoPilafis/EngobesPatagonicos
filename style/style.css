@@ -9,7 +9,6 @@ header .navbar-brand {
 header .nav-link {
   font-size: 1.3rem;
   font-family: "Lato", sans-serif;
-  font-style: bold;
   font-weight: 700;
 }
 header .nav-link, header .navbar-brand {
@@ -91,13 +90,14 @@ a {
 }
 
 .boton--, .boton--contacto, .boton--nosotros, .boton--tecnicas, .boton--muestrario {
-  height: 15vh;
+  height: 17vh;
   width: 24vw;
   padding-top: 2.1rem;
   font-family: "Lato", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
+  color: #594a4e;
   border: 2px solid #594a4e;
-  background-image: url(../imagenes/muestra.jpeg);
+  background-image: url(../imagenes/prueba.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

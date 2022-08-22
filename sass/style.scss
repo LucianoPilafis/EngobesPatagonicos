@@ -16,12 +16,13 @@ a{
 }
 
 .boton--{
-    @include sizes(24vw, 15vh);
+    @include sizes(24vw, 17vh);
     padding-top: 2.1rem;
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 700;
+    color: $letra;
     border: 2px solid $letra;
-    background-image: url(../imagenes/muestra.jpeg);
+    background-image: url(../imagenes/prueba.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
