@@ -35,3 +35,8 @@ a{
     @extend .boton--;
     
 }
+@media (min-width: 768px){
+    .boton--{
+        font-size: 1.4em;
+    }
+}
