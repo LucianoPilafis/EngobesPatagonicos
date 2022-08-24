@@ -49,23 +49,27 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  transition: all 1s;
 }
-
 @media (min-width: 768px) {
-  .boton--, .boton--muestrario, .boton--tecnicas, .boton--nosotros, .boton--contacto {
+  .boton--, .boton--contacto, .boton--nosotros, .boton--tecnicas, .boton--muestrario {
     font-size: 20px;
   }
 }
 @media (min-width: 992px) {
-  .boton--, .boton--muestrario, .boton--tecnicas, .boton--nosotros, .boton--contacto {
+  .boton--, .boton--contacto, .boton--nosotros, .boton--tecnicas, .boton--muestrario {
     font-size: 25px;
   }
 }
 @media (min-width: 1200px) {
-  .boton--, .boton--muestrario, .boton--tecnicas, .boton--nosotros, .boton--contacto {
+  .boton--, .boton--contacto, .boton--nosotros, .boton--tecnicas, .boton--muestrario {
     font-size: 30px;
   }
+  .boton--:hover, .boton--contacto:hover, .boton--nosotros:hover, .boton--tecnicas:hover, .boton--muestrario:hover {
+    font-size: 32px;
+  }
 }
+
 p {
   font-family: "Lato", sans-serif;
   font-weight: 400;

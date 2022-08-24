@@ -19,6 +19,20 @@ a{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    transition: all 1s;
+    @media (min-width: 768px){
+        font-size: 20px;
+    }
+    @media (min-width: 992px){
+        font-size: 25px;
+    }
+    @media (min-width: 1200px){
+        font-size: 30px;
+        &:hover{
+            font-size: 32px;
+        }
+
+    }
 }
 .boton--muestrario{
     @extend .boton--;
@@ -34,19 +48,4 @@ a{
 .boton--contacto{
     @extend .boton--;
     
-}
-@media (min-width: 768px){
-    .boton--{
-        font-size: 20px;
-    }
-}
-@media (min-width: 992px){
-    .boton--{
-        font-size: 25px;
-    }
-}
-@media (min-width: 1200px){
-    .boton--{
-        font-size: 30px;
-    }
 }
