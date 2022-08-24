@@ -15,7 +15,7 @@ a{
     color: $letra;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     border: 2px solid $letra;
-    background-image: url(../imagenes/prueba.jpeg);
+    background-image: url(../imagenes/muestra-05.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -37,6 +37,16 @@ a{
 }
 @media (min-width: 768px){
     .boton--{
-        font-size: 1.4em;
+        font-size: 20px;
+    }
+}
+@media (min-width: 992px){
+    .boton--{
+        font-size: 25px;
+    }
+}
+@media (min-width: 1200px){
+    .boton--{
+        font-size: 30px;
     }
 }
