@@ -1,0 +1,37 @@
+a{
+    text-decoration: none;
+    color: $coloreo;
+}
+
+@mixin sizes($width, $height){
+    height: $height;
+    width: $width;
+}
+
+.boton--{
+    @include sizes(24vw, 17vh);
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: $letra;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    border: 2px solid $letra;
+    background-image: url(../imagenes/prueba.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.boton--muestrario{
+    @extend .boton--;
+}
+.boton--tecnicas{
+    @extend .boton--;
+   
+}
+.boton--nosotros{
+    @extend .boton--;
+    
+}
+.boton--contacto{
+    @extend .boton--;
+    
+}

@@ -32,6 +32,25 @@ header .navbar-toggler:hover {
   transform: scale(1.1);
 }
 
+a {
+  text-decoration: none;
+  color: #faeee7;
+}
+
+.boton--, .boton--contacto, .boton--nosotros, .boton--tecnicas, .boton--muestrario {
+  height: 17vh;
+  width: 24vw;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: #594a4e;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  border: 2px solid #594a4e;
+  background-image: url(../imagenes/prueba.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 p {
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -82,23 +101,4 @@ h2 {
   border: 2px solid #a38a7b;
   background-color: #594a4e;
   color: #faeee7;
-}
-
-a {
-  text-decoration: none;
-  color: #faeee7;
-}
-
-.boton--, .boton--contacto, .boton--nosotros, .boton--tecnicas, .boton--muestrario {
-  height: 17vh;
-  width: 24vw;
-  padding-top: 2.1rem;
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-  color: #594a4e;
-  border: 2px solid #594a4e;
-  background-image: url(../imagenes/prueba.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }/*# sourceMappingURL=style.css.map */
