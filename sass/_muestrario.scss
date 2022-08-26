@@ -1,9 +1,10 @@
 .muestra{
     transition: all 1s;
-}
-.muestra:hover{
-    transform: scale(1.15);
-    border: 2px solid #a38a7b;
-    background-color: $letra;
-    color: $coloreo;
+    &:hover{
+
+        transform: scale(1.1);
+        border: 2px solid #a38a7b;
+        background-color: $letra;
+        color: $coloreo;
+    }
 }

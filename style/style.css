@@ -110,13 +110,15 @@ h2 {
   color: #faeee7;
   text-decoration: none;
 }
+.coloreo p {
+  margin: 0;
+}
 
 .muestra {
   transition: all 1s;
 }
-
 .muestra:hover {
-  transform: scale(1.15);
+  transform: scale(1.1);
   border: 2px solid #a38a7b;
   background-color: #594a4e;
   color: #faeee7;
