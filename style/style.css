@@ -92,10 +92,6 @@ body {
   background-repeat: no-repeat;
 }
 
-.altura {
-  height: 100vh;
-}
-
 h2 {
   font-family: "Lato", sans-serif;
   font-style: bold;
@@ -122,4 +118,35 @@ h2 {
   border: 2px solid #a38a7b;
   background-color: #594a4e;
   color: #faeee7;
+}
+
+.contactlist {
+  padding: 0;
+  margin: 0;
+}
+.contactlist li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.contactlist li a {
+  color: #594a4e;
+}
+.contactlist li .molesto {
+  font-size: 18px;
+}
+@media (min-width: 768px) {
+  .contactlist li .molesto {
+    font-size: 1.5rem;
+  }
+}
+
+.icono {
+  width: 24px;
+  height: 24px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
 }/*# sourceMappingURL=style.css.map */
