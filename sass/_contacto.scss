@@ -4,7 +4,7 @@
 
     li{
         list-style: none;
-        margin: 0;
+        margin: 5% 0 3% 0;
         padding: 0;
         a{
             color:$letra;
@@ -12,7 +12,13 @@
         .molesto{
 
             font-size: 18px;
+            @media (min-width: 576px){
+                font-size: 20px;
+            }
             @media (min-width: 768px){
+                font-size: 22px;
+            }
+            @media(min-width: 992px){
                 font-size: 1.5rem;
             }
             
@@ -22,7 +28,14 @@
 .icono{
     width: 24px;
     height: 24px;
-    
+    margin: 2%;/*
+    @media(min-width: 576px){
+        margin: 0 2% 0 2%;
+    }
+    @media(min-width: 992px){
+        margin: 0 3% 0 3%;
+    }*/
+
 }
 p{
     margin: 0;
