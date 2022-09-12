@@ -159,7 +159,12 @@ h2 {
 }
 
 .formulario {
-  margin: 5% 0 8% 0;
+  margin: 8% 0 2% 0;
+}
+
+.contactoparrafo {
+  border: 2px solid #594a4e;
+  margin: 0 10% 0 10%;
 }
 
 .boton {
